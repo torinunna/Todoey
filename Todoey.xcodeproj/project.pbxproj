@@ -12,6 +12,7 @@
 		865E2D68296536C900F31C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E2D67296536C900F31C49 /* ViewController.swift */; };
 		865E2D6D296536CB00F31C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865E2D6C296536CB00F31C49 /* Assets.xcassets */; };
 		865E2D70296536CB00F31C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865E2D6E296536CB00F31C49 /* LaunchScreen.storyboard */; };
+		865E2D7929653D4600F31C49 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 865E2D7829653D4600F31C49 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865E2D7929653D4600F31C49 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = Todoey;
+			packageProductDependencies = (
+				865E2D7829653D4600F31C49 /* SnapKit */,
+			);
 			productName = Todoey;
 			productReference = 865E2D60296536C900F31C49 /* Todoey.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = 865E2D57296536C900F31C49;
+			packageReferences = (
+				865E2D7729653D4600F31C49 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 865E2D61296536C900F31C49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -346,6 +354,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		865E2D7729653D4600F31C49 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		865E2D7829653D4600F31C49 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 865E2D7729653D4600F31C49 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 865E2D58296536C900F31C49 /* Project object */;
 }
