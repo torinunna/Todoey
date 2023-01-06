@@ -43,6 +43,13 @@ extension ViewController: UITableViewDataSource {
 extension ViewController {
     func setUpNavigationBar() {
         navigationItem.title = "Todoey"
+        let addButton = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(addButtonPressed))
+        navigationItem.rightBarButtonItem = addButton
+    }
+    
+    @objc func addButtonPressed() {
+        let vc = AddViewController()
+        self.present(vc, animated: true)
     }
     
     func setUpTableView() {

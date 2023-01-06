@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8604C6EC29686DB30047A442 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8604C6EB29686DB30047A442 /* AddViewController.swift */; };
 		865E2D64296536C900F31C49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E2D63296536C900F31C49 /* AppDelegate.swift */; };
 		865E2D66296536C900F31C49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E2D65296536C900F31C49 /* SceneDelegate.swift */; };
 		865E2D68296536C900F31C49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E2D67296536C900F31C49 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8604C6EB29686DB30047A442 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		865E2D60296536C900F31C49 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865E2D63296536C900F31C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		865E2D65296536C900F31C49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				865E2D63296536C900F31C49 /* AppDelegate.swift */,
 				865E2D65296536C900F31C49 /* SceneDelegate.swift */,
 				865E2D67296536C900F31C49 /* ViewController.swift */,
+				8604C6EB29686DB30047A442 /* AddViewController.swift */,
 				865E2D7A29653E2800F31C49 /* ToDoCell.swift */,
 				865E2D6C296536CB00F31C49 /* Assets.xcassets */,
 				865E2D6E296536CB00F31C49 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8604C6EC29686DB30047A442 /* AddViewController.swift in Sources */,
 				865E2D68296536C900F31C49 /* ViewController.swift in Sources */,
 				865E2D64296536C900F31C49 /* AppDelegate.swift in Sources */,
 				865E2D66296536C900F31C49 /* SceneDelegate.swift in Sources */,
