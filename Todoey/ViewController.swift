@@ -64,8 +64,7 @@ extension ViewController {
     }
     
     @objc func addButtonPressed() {
-        let vc = AddViewController()
-        self.present(vc, animated: true)
+        
     }
     
     func setUpTableView() {
