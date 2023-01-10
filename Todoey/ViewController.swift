@@ -64,7 +64,15 @@ extension ViewController {
     }
     
     @objc func addButtonPressed() {
-        
+        let alert = UIAlertController(title: "Add New Todoey", message: "", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Done", style: .default) { (action) in
+            
+        }
+        alert.addTextField { (alertTextField) in
+            alertTextField.placeholder = "Create New Item"
+        }
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
     func setUpTableView() {
