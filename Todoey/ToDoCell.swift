@@ -11,15 +11,14 @@ import UIKit
 class ToDoCell: UITableViewCell {
     static let identifier = "TodoCell"
     
-    private lazy var favoriteButton: UIButton = {
+    var favoriteButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "star"), for: .normal)
         return button
     }()
     
-    private lazy var title:  UILabel = {
+    var title: UILabel = {
         let label = UILabel()
-        label.text = "What to do"
         label.font = .systemFont(ofSize: 20.0, weight: .semibold)
         return label
     }()
