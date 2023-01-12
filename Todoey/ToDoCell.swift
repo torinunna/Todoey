@@ -17,7 +17,7 @@ class ToDoCell: UITableViewCell {
         return button
     }()
     
-    private lazy var label:  UILabel = {
+    private lazy var title:  UILabel = {
         let label = UILabel()
         label.text = "What to do"
         label.font = .systemFont(ofSize: 20.0, weight: .semibold)
@@ -25,7 +25,7 @@ class ToDoCell: UITableViewCell {
     }()
     
     func setUpLayout() {
-        [favoriteButton, label].forEach { addSubview($0) }
+        [favoriteButton, title].forEach { addSubview($0) }
         
         favoriteButton.snp.makeConstraints {
             $0.leading.equalToSuperview().inset(15.0)
@@ -33,7 +33,7 @@ class ToDoCell: UITableViewCell {
             $0.width.height.equalTo(20.0)
         }
         
-        label.snp.makeConstraints {
+        title.snp.makeConstraints {
             $0.leading.equalTo(favoriteButton.snp.trailing).offset(8.0)
             $0.centerY.equalToSuperview()
             $0.height.equalTo(23.0)
